@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+}
+
+.container{
+    width:90%;
+    max-width:600px;
+    margin:auto;
+    padding:20px;
+}
+
+h1,p{
+    text-align:center;
+}
+
+.saldo-box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form{
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+input,
+select,
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+
+button{
+    background:#007bff;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:white;
+    margin-top:10px;
+    padding:10px;
+    border-radius:8px;
+}
+
+.pemasukan{
+    border-left:5px solid green;
+}
+
+.pengeluaran{
+    border-left:5px solid red;
+}

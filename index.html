@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artha Lekhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📊 Artha Lekhana</h1>
+    <p>Catatan Pemasukan dan Pengeluaran Keuangan</p>
+
+    <div class="saldo-box">
+        <h2>Saldo Saat Ini</h2>
+        <h1 id="saldo">Rp 0</h1>
+    </div>
+
+    <div class="form">
+        <input type="text" id="keterangan" placeholder="Keterangan">
+
+        <input type="number" id="jumlah" placeholder="Jumlah Uang">
+
+        <select id="jenis">
+            <option value="pemasukan">Pemasukan</option>
+            <option value="pengeluaran">Pengeluaran</option>
+        </select>
+
+        <button onclick="tambahTransaksi()">
+            Simpan Transaksi
+        </button>
+    </div>
+
+    <h2>Riwayat Transaksi</h2>
+
+    <ul id="riwayat"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
